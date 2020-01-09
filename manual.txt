@@ -1,0 +1,22 @@
+###### Nan Chen
+###### 915218152
+
+##Compilation and name of executable
+In the project's root directory, run 'make' to compile the executable named 'draw'
+
+##How to run, command syntax, input/output file format
+Type in  "./draw polygons environment" where "polygons" is a file that describes polygons, and "environment" is a file that contains coefficients and other details about the scene.
+
+For example, for Phong constant = 3, k_a = 0.25, k_d = 0.5, k_s = 0.75, ambient intensity = 4, light source intensity = 5, light source location = (100,200,300), and viewing point location = (500,500,500)
+
+3
+0.25 0.5 0.75  
+4 5 
+100 200 300  
+500 500 500
+
+##After run command, following information will be displayed and getting user input:
+Enter the width of the display window: 
+Enter the height of the display window: 
+Would you like to enable half tone? Enter 0 for no / 1 for yes:
+Which plane would you like to project to? Enter 0 for xy plane / 1 for yz plane / 2 for xz plane: 
